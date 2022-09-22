@@ -9,6 +9,8 @@ TagManager:
   - RightArm
   - LeftLeg
   - RightLeg
+  - Laser
+  - BeforeLaser
   layers:
   - Default
   - TransparentFX
