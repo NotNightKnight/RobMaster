@@ -13,7 +13,7 @@ namespace RobMaster
         private Camera myCamera;
 
         [SerializeField]
-        private float movSpeed, stopTime;
+        private float movSpeed, stopTime, delayTime;
 
         private float tempSpeed;
 
@@ -50,6 +50,10 @@ namespace RobMaster
         public float GetStopTime()
         {
             return stopTime;
+        }
+        public float GetDelayTime()
+        {
+            return delayTime;
         }
     }
 }

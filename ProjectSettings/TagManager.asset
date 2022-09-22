@@ -11,6 +11,7 @@ TagManager:
   - RightLeg
   - Laser
   - BeforeLaser
+  - FinishLine
   layers:
   - Default
   - TransparentFX
